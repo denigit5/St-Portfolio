@@ -545,7 +545,7 @@ textarea {
 
     .footer {
         background-color: #7a2840;
-        width: 100%;
+        width: 110%;
         height: 846px;
         margin-top: -4rem;
     }
@@ -558,7 +558,7 @@ textarea {
     }
     
     .footer-heading {
-        padding-top: 15%;
+        padding-top: 10%;
         padding-bottom: 3rem;
     }
     
