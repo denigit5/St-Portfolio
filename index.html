@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal portfolio</title>
+  </head>
+  <body>
+    <!-- Homepage -->
+    
+    <!-- Skills -->
+    <section id="skills" style="margin-top: -3.4rem">
+        <h2>SKILLS </h2>
+        <ul id="tech">
+            <li><button class="tag tag1"> Javascript</button></li>
+            <li><button class="tag tag2"> HTML</button></li>
+            <li><button class="tag tag3"> CSS</button></li>
+            <li><button class="tag tag4"> Version control</button></li>
+            <li><button class="tag tag5">Tailwindcss<img src="assets/tailwind icon.png" class="tailwind-icon" alt=""></button></li>    
+        </ul>
+        <p class="skills-text">I have a wide range of skills and experience in the following areas. Contact me and let's work together.</p>
+    </section>
+    <!-- Projects -->
+    <h3>Here are some of my projects :</h3>
+    <div id="projects">
+         <div class="card card1">
+            <img src="assets/Snapshoot.png" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tonic</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">see project</a>
+            </div>
+          </div>
+          <div class="card card2">
+            <img src="assets/Snapshoot2.png" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Facebook</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">See project</a>
+            </div>
+          </div>
+          <div class="card card3">
+            <img src="assets/Snapshoot3.png" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Multi-Post Stories</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">See project</a>
+            </div>
+          </div>
+          <div class="card card4">
+            <img src="assets/Snapshoot4.png" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Uber navigation</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">See project</a>
+            </div>
+          </div>
+    </div>
+    <!-- Contact -->
+    <footer id="contact" class="footer">
+        <section class="footer-container">
+            <h2 id="footer-head" class="footer-heading">Contact me</h2>
+            <p class="footer-paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>
+            <form id="form" action="https://formspree.io/f/xwkjzpov" method="POST">
+               <ul class="flex">
+                <li>
+                    <label for="name">
+                        <input id="name" type="text" maxlength="30" placeholder="Lorem ipsum" required>
+                    </label>
+                </li>
+                <li>
+                    <label for="email">
+                        <input id="email" type="email" placeholder="loremipsum@gmail.com" required>
+                    </label>
+                </li>
+                <li>
+                    <textarea name="text" id="text" cols="30" rows="10" maxlength="500" placeholder="write your message here..." required></textarea>
+                </li>
+                <button type="submit" id="submit" value="submit"  class="submitform">Get in touch</button>
+               </ul>
+               <div class="failed failed1 validate-email-disabled">Error, Form is not sent: Upper-Case not allowed in email</div>
+            </form> 
+        </section>
+    </footer>
+  </body>
+</html>
